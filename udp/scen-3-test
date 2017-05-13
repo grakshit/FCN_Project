@@ -1,0 +1,6 @@
+set god_ [God instance]
+$ns_ at 2.000000000000 "$node_(0) setdest 100.0 120.00 0.0"
+$god_ set-dist 0 1 1
+$node_(0) set Z_ 0.000000000000
+$node_(0) set Y_ 0.0
+$node_(0) set X_ 60.0
